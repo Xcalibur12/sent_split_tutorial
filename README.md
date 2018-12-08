@@ -24,7 +24,7 @@ After you get a recognition result of your sound file with an ASR model, you can
   
 You can see the example of the structure from `data/example.trn`
 
-![alt text](https://github.com/Xcalibur12/sent_split_tutorial/master/data/sent_split_example.png "Example of Transcript")
+![alt text](https://github.com/Xcalibur12/sent_split_tutorial/blob/master/data/sent_seg_example.png "Example of Transcript")
 
 
 # The approach
