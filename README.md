@@ -26,10 +26,10 @@ You can see the example of the structure from data/example.trn
 
 # The approach
 
-The speech from the sound file (which is data/example.wav) is a read speech of over 55 sentences.  
+The speech from the sound file (which is 'data/example.wav') is a read speech of over 55 sentences.  
 Your task is to divide this long file into one-sentence files.  
 
-When you closely look at the first row of the example.trn, you can easily find out a sentence delimiter is '-다'.  
+When you closely look at the first row of the 'example.trn', you can easily find out a sentence delimiter is '-다'.  
 Since this sound file is a read speech file, you can divide the data based on the time point of every '-다'.  
 
 Also, when you closely look at from the second row this time, on the 3rd column where you can see PLUs, after the last PLU of a word you can see 'sil', which means 'silence'. And then a new word starts with the first PLU of the next word.  
