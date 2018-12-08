@@ -12,12 +12,14 @@ After you get a recognition result of your sound file with an ASR model, you can
 
 # The structure of the result file
 
-1st row: a long string of the transcription of the sound file recognized by the ASR model
+1st row: A long string of the transcription of the sound file recognized by the ASR model
 2nd ~ last row:
-  1st column: start time of a PLU (Phone Like Unit)
-  2nd column: end time of a PLU
-  3rd column: a PLU
-  4th column: optional. a word
+|Column|Description|
+|------|-----------|
+|1st column|Start time of a PLU (Phone Like Unit)|
+|2nd column|End time of a PLU|
+|3rd column|A PLU|
+|4th column|Optional. A word|
   
 You can see the example of the structure from data/example.trn
 
