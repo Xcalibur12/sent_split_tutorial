@@ -40,3 +40,7 @@ Also, when you closely look at from the second row this time, on the 3rd column 
 If you consider the two things mentioned above, you can find out a time interval of a sentence
 1) Find the end time point of '-다' (which is the end point of a sentence)
 2) Find the end time point of 'sil' after '-다' (which is the start point of the next sentence)
+
+# Prerequisites
+1. Python 3
+2. pydub (python library)
