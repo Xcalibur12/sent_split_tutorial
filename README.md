@@ -41,6 +41,10 @@ If you consider the two things mentioned above, you can find out a time interval
 1) Find the end time point of '-다' (which is the end point of a sentence)
 2) Find the end time point of 'sil' after '-다' (which is the start point of the next sentence)
 
+# Advantages
+* Robust against speech mistakes, such as repeating words in a sentence
+* Robust aginst long pauses in the middle of a sentence (because text-dependent)
+
 # Prerequisites
 1. Python 3
 2. pydub (python library)
