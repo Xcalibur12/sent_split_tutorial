@@ -1,4 +1,4 @@
-import silence_detector
+import sent_splitter
 import wave_splitter
 
 input_wav = ".\\data\\test.wav"
