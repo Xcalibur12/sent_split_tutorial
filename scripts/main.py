@@ -1,8 +1,8 @@
 import silence_detector
 import wave_splitter
 
-input_wav = ".\\test.wav"
-trn_name = ".\\test.trn"
+input_wav = ".\\data\\test.wav"
+trn_name = ".\\data\\test.trn"
 
 def main():
     sent_list = silence_detector.sent_split(trn_name)
