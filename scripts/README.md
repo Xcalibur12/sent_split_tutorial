@@ -3,7 +3,7 @@ This tutorial to retrieve sentence segmented audio files from one long file by g
 
 # File Descriptions
 * main.py  
-- This file is the main script that imports necessary functions for audio sentence segmentation
+  - This file is the main script that imports necessary functions for audio sentence segmentation
 * sent_splitter.py
 - This file reads the transcription data and outputs the time infromation (start and end) of each sentence segmented chunk
 * wave_splitter.py
