@@ -47,4 +47,4 @@ If you consider the two things mentioned above, you can find out a time interval
 
 # Prerequisites
 1. Python 3
-2. pydub (python library)
+2. pydub (python library) for audio segmentation
